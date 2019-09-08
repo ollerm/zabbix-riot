@@ -38,8 +38,12 @@ Next create /scripts dir, or other if you want. But then you must change file pa
 To /scripts put riot.php file.
 
 Some variables to change in riot.php:
+
+
 <SERVER_NAME>
+
 <ROOM_ID> ( ! -> %21 )
+
 <TOKEN>
 
 # Zabbix configuration
