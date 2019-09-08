@@ -2,7 +2,7 @@
 
 This is a simple script to send message to riot.im channel.
 
-# Create Riot user
+**Create Riot user**
 
 First you must create user and get room id from Riot.
 
@@ -25,7 +25,7 @@ Please invite your new user to room.
 ID of your room you can get from channel settings.
 
 
-# Scripts installation
+**Scripts installation**
 
 Next you must set AlertScriptsPath in zabbix server config file, example: 
 
@@ -44,9 +44,9 @@ Some variables to change in riot.php:
 
 <ROOM_ID> ( ! -> %21 )
 
-<TOKEN>
+< TOKEN>
 
-# Zabbix configuration
+**Zabbix configuration**
 
 1. Add media type:
 
