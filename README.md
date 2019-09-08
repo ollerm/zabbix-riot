@@ -6,7 +6,7 @@ This is a simple script to send message to riot.im channel.
 
 First you must create user and get room id from Riot.
 
-You can simple creat it with curl:
+You can simple create it with curl:
 
 ```bash
 curl -XPOST -d '{"username":"<USER_NAME>", "password":"<PASSWORD>", "auth": {"type":"m.login.dummy"}}' "https://<SERVER_NAME>/_matrix/client/r0/register"
